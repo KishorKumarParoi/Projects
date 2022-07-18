@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1:hover {
+            color: skyblue;
+            background-color: seagreen;
+            margin: 100px;
+            border: 50px solid yellow;
+            border-radius: 10px;
+            padding: 50px;
+            width: 70%;
+            height: 80%;
+            font-size: 50px;
+            font-weight: 200;
+        }
+
+        .middle-class:focus {
+            color: blue;
+            font-weight: 700;
+            border-radius: 5px;
+            border: 2px solid yellow;
+        }
+
+        a:visited {
+            color: blue;
+            font-weight: 900;
+        }
+
+        li:nth-child(2n+1) {
+            color: red;
+        }
+
+        .special::before {
+            content: "Hello ";
+            background-color: yellow;
+        }
+
+        h3::after {
+            content: " Tata";
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is Normal</h1>
+    <input type="text">
+    <input class="middle-class" type="text">
+    <input type="text"><br>
+
+    <a target="_blank" href="https://www.google.com/"> Google a Jaou</a>
+    <a target="_blank" href=" https://www.youtube.com/">Youtube a Jaou</a>
+    <a target="_blank" href="https://codeforces.com/">Code Koro</a>
+    <a href="https://dreamnetbd.com/">jainai</a>
+
+    <ul>
+        <li>ALia</li>
+        <li>Dalia</li>
+        <li>Kalia</li>
+        <li>Calia</li>
+        <li>Jalia</li>
+        <li>Malia</li>
+    </ul>
+
+    <h3>middile size header - 1</h3>
+    <h3>middile size header - 2</h3>
+    <h3 class="special">middile size header - 3</h3>
+    <h3 class="special">middile size header - 4</h3>
+    <h3>middile size header - 5</h3>
+    <h3 class="special">middile size header - 6</h3>
+</body>
+
+</html>
